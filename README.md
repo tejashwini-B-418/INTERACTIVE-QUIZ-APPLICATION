@@ -80,5 +80,15 @@ This Interactive Quiz Application can be used in multiple real-world scenarios s
 
 Overall, this project demonstrates practical understanding of front-end technologies and user-interface design. It shows how JavaScript can be used to create interactive, adaptive and intelligent quiz systems with real-time feedback. The work done in this task goes beyond a basic quiz and provides a complete learning experience with analytics, difficulty adjustment, and a user-friendly interface.
 
+## OUTPUT:
 
+<img width="1908" height="1025" alt="Image" src="https://github.com/user-attachments/assets/fbeb498f-2e96-4062-b957-0fadc329f056" />
+
+<img width="1902" height="1078" alt="Image" src="https://github.com/user-attachments/assets/e32f9a58-0b06-46c2-90c6-0dfb1705feb7" />
+
+<img width="1919" height="1070" alt="Image" src="https://github.com/user-attachments/assets/1315f4e4-08b5-4dcc-8e60-e7b29386b628" />
+
+<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/29d69cbe-9b77-459b-98a2-537cede5a67a" />
+
+<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/d44adb3a-a90f-4090-9a1d-ca0ac542d707" />
 
