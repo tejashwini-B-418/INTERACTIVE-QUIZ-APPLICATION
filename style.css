@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: radial-gradient(circle at top, #0a0f24, #000);
+    color: #d9e4ff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.app-container {
+    background: rgba(20, 30, 60, 0.65);
+    backdrop-filter: blur(12px);
+    border: 1px solid #2b4bff40;
+    border-radius: 18px;
+    width: 95%;
+    max-width: 480px;
+    padding: 25px;
+    box-shadow: 0 0 25px #1a39ff60;
+    text-align: center;
+    animation: fadeIn 0.8s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.97); }
+    to   { opacity: 1; transform: scale(1); }
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 600;
+    color: #5f85ff;
+    text-shadow: 0 0 10px #5f85ff70, 0 0 25px #5f85ff40;
+}
+
+.subtitle {
+    font-size: 14px;
+    opacity: 0.8;
+    margin-bottom: 20px;
+}
+
+button {
+    background: #1f32a0;
+    color: #fff;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #2944d8;
+    box-shadow: 0 0 12px #2d46ff;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+#useHint {
+    background: #ffb300;
+    color: #000;
+}
+
+#useHint:hover {
+    background: #ffcc4d;
+    box-shadow: 0 0 10px #ffcc4d;
+}
+
+.hidden {
+    display: none;
+}
+
+.top-panel {
+    display: flex;
+    justify-content: space-between;
+    background: rgba(255,255,255,0.05);
+    padding: 10px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+
+#question {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+#options button {
+    width: 100%;
+    margin: 8px 0;
+    padding: 12px;
+    background: rgba(255,255,255,0.07);
+    border: 1px solid #2d46ff70;
+    border-radius: 10px;
+    text-align: left;
+    transition: 0.25s;
+}
+
+#options button:hover {
+    background: rgba(45, 70, 255, 0.2);
+}
+
+.correct {
+    background: #30ce68 !important;
+    box-shadow: 0 0 10px #3dff89;
+}
+
+.wrong {
+    background: #ff5b5b !important;
+    box-shadow: 0 0 10px #ff8585;
+}
+
+.reaction {
+    margin-top: 12px;
+    font-size: 32px;
+    height: 40px;
+}
+
+#result-box {
+    animation: fadeIn 0.8s ease;
+}
+
+#result-text {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+canvas {
+    margin-top: 20px;
+    background: rgba(255,255,255,0.05);
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: 0 0 10px #2b4bff60;
+}
