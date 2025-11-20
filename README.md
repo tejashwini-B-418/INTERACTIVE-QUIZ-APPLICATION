@@ -1,18 +1,18 @@
 # INTERACTIVE-QUIZ-APPLICATION
 
-COMPANY:CODTECH IT SOLUTIONS
+*COMPANY*:CODTECH IT SOLUTIONS
 
-NAME:TEJASHWINI B
+*NAME*:TEJASHWINI B
 
-INTERN ID:CT04DR1294
+*INTERN ID*:CT04DR1294
 
-DOMAIN:FRONT END DEVELOPMENT
+*DOMAIN*:FRONT END DEVELOPMENT
 
-DURATION:4 WEEKS
+*DURATION*:4 WEEKS
 
-MENTOR:NEELA SANTOSH
+*MENTOR*:NEELA SANTOSH
 
-DESCRIPTION:
+*DESCRIPTION*:
 
 This project is an Interactive Quiz Application developed as part of the Front-End Development internship at CodTech IT Solutions. The main objective of this task is to design a quiz system using HTML, CSS and JavaScript, where the user can attempt questions and receive immediate feedback. The application is designed in a clean, simple, and user-friendly way, with multiple advanced features added to improve the learning experience.
 
